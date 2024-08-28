@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kyaa Mochi</title>
+    <link rel="icon" href="assets/favicon.png" />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <section class="container" id="home">
+      <div class="hero-image">
+        <img src="assets/hero.jpg" alt="Background Image" />
+
+        <div class="navbar">
+          <ul class="navbar-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#customer">Customer Book</a></li>
+          </ul>
+        </div>
+
+        <div class="hero-text">
+          <h1>#MAKEEVERYTHINGHAPPY</h1>
+          <button class="btn">Pesan Mochi</button>
+          <button class="btn">News &amp; Promo</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-content">
+        <div class="about-image">
+          <img src="assets/products.jpg" alt="Mochi Products" />
+        </div>
+        <div class="about-text">
+          <h4>TENTANG MOCHI KYAA</h4>
+          <h2>With a Variated Mochi Products</h2>
+          <p>
+            Selamat datang di Kyaa Mochi tempat terbaik untuk mendapatkan mochi
+            lezat dan berkualitas. Temukan berbagai varian rasa yang menggugah
+            selera dan nikmati pengalaman berbelanja yang menyenangkan bersama
+            kami.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-section" id="product">
+      <div class="product-content">
+        <div class="product-text">
+          <h4>PRODUK MOCHI KAMI</h4>
+          <h2>Healthy &amp; Certified</h2>
+          <p>
+            Produk dari Mochi sudah Bersertifikat BPOM &amp; Halal. Yang sudah
+            pasti memiliki berbagai macam mochi berkualitas dan lucu.
+          </p>
+          <button class="btn">Lihat semua Mochi</button>
+        </div>
+        <div class="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/mochi1.jpg" alt="Mochi 1" />
+            </div>
+            <div class="carousel-item">
+              <img src="assets/mochi1.jpg" alt="Mochi 2" />
+            </div>
+            <div class="carousel-item">
+              <img src="assets/mochi1.jpg" alt="Mochi 3" />
+            </div>
+          </div>
+          <button class="carousel-control-prev">&#10094;</button>
+          <button class="carousel-control-next">&#10095;</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="customer-book-section" id="customer">
+      <div class="customer-book-content">
+        <h4>BOOK CUSTOMER</h4>
+        <h2>Share Your Feedback</h2>
+        <form class="customer-book-form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#customer-book">Customer Book</a></li>
+        </ul>
+        <div class="footer-info">
+          <p>Made with &hearts; by Kiyaa &copy; 2024</p>
+          <a
+            href="https://instagram.com/cezpheuss"
+            target="_blank"
+            class="instagram-link"
+          >
+            <img src="assets/instagram-icon.webp" alt="Instagram" />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <button class="scroll-to-top" id="scroll-to-top">&#9650;</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
